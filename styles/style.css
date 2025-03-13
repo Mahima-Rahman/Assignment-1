@@ -17,12 +17,51 @@ nav{
   margin-top:32px;
   margin-bottom:32px;
   margin-left:160px;
+  
 }
 .btn-primary{
-  margin-top:32px;
-  margin-bottom:32px;
-  margin-right:160px;
+  
   color:#006A50;
   padding:15px 30px;
   border-color:#006A50;
+  margin-top:32px;
+  margin-bottom:32px;
+  margin-right:160px;
+}
+/*Banner Styles*/
+.banner{
+background-color: #b7d7cf;
+ display:flex;
+ margin-right: 160px;
+ margin-left: 160px;
+ border-radius:24px;
+}
+.banner-title{
+  font-weight:medium;
+  font-size:24px;
+  color:#0E0E0E;
+
+}
+.banner-description{
+  font-weight:bold;
+  font-size:56px;
+  color:#0E0E0E;
+ 
+
+}
+.btn-secondary{
+  font-weight:semi-bold;
+  font-size:18px;
+  color:#FFFFFF;
+  background-color: #6F857F;
+  border-radius:8px;
+  padding:17px 34px;
+  border:none;
+}
+
+.banner-content{
+  padding:117px 64px 117px 60px;
+}
+.hero-image{
+  padding:80px 64px 80px 60px;
 }
