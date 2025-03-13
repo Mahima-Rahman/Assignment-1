@@ -5,9 +5,24 @@
   font-style: normal;
 }
 
-
-
 /*Nav Styles*/
 nav{
   display:flex;
+  justify-content:space-between;
+}
+.nav-title{
+  font-weight:bold;
+  font-size:32px;
+  color:#0E0E0E;
+  margin-top:32px;
+  margin-bottom:32px;
+  margin-left:160px;
+}
+.btn-primary{
+  margin-top:32px;
+  margin-bottom:32px;
+  margin-right:160px;
+  color:#006A50;
+  padding:15px 30px;
+  border-color:#006A50;
 }
