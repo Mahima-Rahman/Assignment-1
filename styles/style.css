@@ -1,1 +1,13 @@
+/*Fira Sans Font*/
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+
+
+/*Nav Styles*/
+nav{
+  display:flex;
+}
