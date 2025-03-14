@@ -65,3 +65,50 @@ background-color: #b7d7cf;
 .hero-image{
   padding:80px 64px 80px 60px;
 }
+/*Main Section Styles*/
+main{
+  margin-right: 160px;
+  margin-left: 160px;
+  max-width:1280px;
+}
+/*Main Section Pillars of Bangladesh Styles*/
+.section-title{
+  font-weight:bold;
+  font-size:40;
+  color:#0E0E0E;
+  margin-top:80px;
+}
+.pillar-container{
+  display:flex;
+  justify-content:space-between;
+  margin-top:32px;
+  gap:24px;
+  
+ 
+  
+}
+.pillar{
+  padding: 24px;
+  box-shadow:0px 4px 50px 0px hwb(0 85% 15%);
+  border-radius:16px;
+}
+
+/*Vision Section Styles*/
+.vision{
+  margin-top:80px;
+}
+.vision-container{
+  display:flex;
+  justify-content: space-between;
+  gap:24px;
+  
+}
+.vision-card{
+  padding: 32px;
+  box-shadow:0px 4px 50px 0px hwb(0 85% 15%);
+  border-radius:16px;
+  margin-top:32px;
+}
+.vision-card-a{
+  background-color: #rgba(84, 144, 245, 1);
+}
