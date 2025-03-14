@@ -173,7 +173,7 @@ main{
 }
 .quote-container{
 
-  padding:48px; 24px;
+  padding:48px 24px;
 }
 .quote-icon{
        max-width:64px;
@@ -207,3 +207,4 @@ main{
   font-size:16px;
   color:#0e0e0eaa;
 }
+
