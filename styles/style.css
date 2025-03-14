@@ -89,8 +89,8 @@ main{
 }
 .pillar{
   padding: 24px;
-  box-shadow:0px 4px 50px 0px hwb(0 85% 15%);
-  border-radius:16px;
+  box-shadow: 0px 4px 50px 0px hwb(0 85% 15%);
+  border-radius:16px;  
 }
 
 /*Vision Section Styles*/
@@ -101,14 +101,109 @@ main{
   display:flex;
   justify-content: space-between;
   gap:24px;
+  margin-top:32px;
   
 }
 .vision-card{
   padding: 32px;
-  box-shadow:0px 4px 50px 0px hwb(0 85% 15%);
-  border-radius:16px;
   margin-top:32px;
 }
-.vision-card-a{
-  background-color: #rgba(84, 144, 245, 1);
+.card-bg-a{
+  background-color:rgb(157, 184, 231);
+  border-radius:16px;
+  box-shadow:0px 4px 50px 0px rgb(180, 182, 186);
+}
+.card-bg-b{
+  background-color:rgba(188, 235, 214, 1);
+  border-radius:16px;
+  box-shadow:0px 4px 50px 0px rgb(180, 182, 186);
+}
+.card-bg-c{
+  background-color:rgb(208, 206, 200);
+  border-radius:16px;
+  box-shadow:0px 4px 50px 0px rgb(180, 182, 186);
+}
+.vision-section-title{
+  font-weight:bold;
+  font-size:40px;
+  color:#0E0E0E;
+}
+.vision-description{
+  font-weight:regular;
+  font-size:16px;
+  color:#0E0E0E;
+}
+
+/*Shared Styles*/
+
+.vision-card-btn-a{
+  font-weight:semi-bold;
+  font-size:16px;
+  color:#FFFFFF;
+  border-radius:8px;
+  padding:17px 34px;
+  border:none;
+  background-color:#5490F5;
+}
+.vision-card-btn-b{
+  font-weight:semi-bold;
+  font-size:16px;
+  color:#FFFFFF;
+  border-radius:8px;
+  padding:17px 34px;
+  border:none;
+  background-color:#09A15C;
+}
+.vision-card-btn-c{
+  font-weight:semi-bold;
+  font-size:16px;
+  color:#FFFFFF;
+  border-radius:8px;
+  padding:17px 34px;
+  border:none;
+  background-color:#FFC239;
+}
+
+/*Quote Section Styles*/
+.section-quote{
+  border-radius:16px;
+  box-shadow:0px 4px 50px 0px rgb(180, 182, 186);
+  margin-top:32px;
+  
+}
+.quote-container{
+
+  padding:48px; 24px;
+}
+.quote-icon{
+       max-width:64px;
+       position:absolute;
+       
+}
+.quote-text{
+  font-weight:regular;
+  font-size:16px;
+  color:#0E0E0E;
+}
+.quote-author{
+  font-weight:semi-bold;
+  font-size:20px;
+  color:#0E0E0E;
+}
+.quote-position{
+  font-weight:regular;
+  font-size:16px;
+  color:#0E0E0E;
+}
+/*Recent News Section Styles*/
+.news-title{
+  font-weight:bold;
+  font-size:40px;
+  color:#0E0E0E;
+  margin-top:80px;
+}
+.news-description{
+  font-weight:regular;
+  font-size:16px;
+  color:#0e0e0eaa;
 }
