@@ -143,7 +143,7 @@ main{
   border-radius:8px;
   padding:17px 34px;
   border:none;
-  background-color:#5490F5;
+ background-color:#5490F5;
 }
 .vision-card-btn-b{
   font-weight:semi-bold;
@@ -208,3 +208,51 @@ main{
   color:#0e0e0eaa;
 }
 
+.news{
+  display:flex;
+  justify-content:space-between;
+  margin-top:32px;
+  gap:32px;
+  padding:48px;
+  box-shadow:0px 4px 50px 0px rgb(180, 182, 186);
+  
+}
+.news-card-2{
+  display:flex;
+  justify-content:space-between;
+  margin-top:32px;
+  gap:32px;
+  padding:48px;
+  box-shadow:0px 4px 50px 0px rgb(180, 182, 186);
+}
+
+.corner-radius{
+  border-radius:24px;
+}
+
+.satellite-title{
+  font-weight:bold;
+  font-size:32px;
+  color:#0E0E0E;
+}
+.news-date{
+  font-weight:regular;
+  font-size:16px;
+  color:rgba(14, 14, 14, 0.54);
+
+}
+
+.news-blog{
+  font-weight:regular;
+  font-size:16px;
+  color:rgba(14, 14, 14, 0.7);
+}
+.news-btn{
+  font-weight:semi-bold;
+  font-size:16px;
+  color:#FFFFFF;
+  border-radius:8px;
+  padding:17px 34px;
+  border:none;
+  background-color:rgba(0, 106, 80, 1);
+}
