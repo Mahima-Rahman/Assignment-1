@@ -348,3 +348,45 @@ placeholder{
 }
 .donation-button:hover {
   background: #085b38;}
+/*Subscribe-Newsletter Section Styles*/
+.newsletter{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:80px;
+}
+.subscribe-container{
+  background-color:rgba(198, 228, 214, 1);
+  padding:80px 329px 80px 329px;
+  border-radius:24px;
+  text-align:center;
+}
+.subscribe-title{
+  font-weight:bold;
+  font-size:40px;
+  color:#0E0E0E;
+}
+.subscribe-subtitle{
+  font-weight:regular;
+  font-size:16px;
+  color:#0e0e0ec3;
+}
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footer-input{
+    padding:18px 408px 18px 40px;
+}
+.subscribe-btn{ font-weight:semi-bold;
+  font-size:16px;
+  color:#FFFFFF;
+  padding:17px 34px;
+  border:none;
+  background-color:rgba(0, 106, 80, 1);
+}
+.small-bottom{
+  margin-top:24px;
+}
